@@ -1,0 +1,28 @@
+:root {
+    --clockFont: "Impact";
+    --clockFontSize: "42px";
+}
+
+.clock{
+    font-size: var(--clockFontSize);
+    font-family: var(--clockFont);
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
